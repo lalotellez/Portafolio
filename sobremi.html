@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mi</title>
+  <style>
+    table, th,td{
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <!--Esto es el titulo de la pagina-->
+  <header>
+    <h1>Sobre mi</h1>
+  </header>
+
+  <!--Esta es la barra de navegación-->
+  <nav>
+    <h2>Redes Sociales</h2>
+    <hr>
+    <a href="index.html">Inicio</a>
+    <a target="_blank" href="https://www.facebook.com/laloatellez/">Facebook</a>
+    <a target="_blank" href="https://www.instagram.com/lalotellez99">Instagram</a>
+    <a target="_blank" href="https://www.twitch.tv/lalotellezbpc">Twitch</a>
+    <a target="_blank" href="https://twitter.com/EduardoTellez_">Twitter</a>
+  </nav>
+  <hr>
+  <main>
+    <!--Section de breve BIOGRAFIA-->
+    <section>
+      <h2>Acerca de mi</h2>
+      
+      <div>
+        <p>Que onda!<br>
+          Tengo 26 años, soy Mexicano y me encanta la tecnología, los videojuegos y el fútbol. De hecho, estudio computación porque me encanta el mundo informático. Soy un jugador de videojuegos muy casual, no suelo jugar muchas horas algún juego pero cuando lo hago me encanta jugar Rocket League, Halo Infinite, GTA V, Fortnite, Fall guys etc...
+          También me gusta entrenar, ir al gimnasio y estar en la mejor forma posible.
+          Amo editar videos, clips, etc.. y esos los ando subiendo a TIKTOK. Es un canal super chill, considero yo, y el objetivo simplemente es conocer gente que se apasione por los mismos gustos e intereses que yo.
+          Si llegaste a leer hasta aquí tendrás un resto del día maravilloso.<br>
+          LaloTellez.
+        </p>
+        <img src="https://scontent.fpbc6-1.fna.fbcdn.net/v/t39.30808-6/334550504_1873388536378767_3756685564087406784_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=C82BANZL3U4AX9JRd8v&_nc_ht=scontent.fpbc6-1.fna&oh=00_AfCnhx2Dly7xJ4CF84n8eAoR_K80pnyrCj8YfG_ej7lHKg&oe=6440E684" width="400" height="400"/>
+      </div>
+      <hr>
+      <!--Ejemplo de LISTAS NO ORDENADAS-->
+      <h2>Cosas que me gustan</h2>
+      <p>Listas no ordenadas</p>
+      <div>
+        <ul>
+          <li>Chris</li>
+          <li>Michelle</li>
+          <li>Franco</li>
+          <li>López</li>
+        </ul>
+      </div>
+
+      <!--Ejemplo de LISTAS ORDENADAS-->
+      <h2>Cosas que no me gustan</h2>
+      <p>Listas ordenadas</p>
+      <div>
+        <ol>
+          <li>Lentejas</li>
+          <li>Sushi</li>
+          <li>Pasas</li>
+          <li>Picante</li>
+        </ol>
+      </div>
+      
+      <!--Ejemplo de LISTAS ORDENADAS DESDE UN NÚMERO EN ESPECIFICO-->
+      <h2>Cosas que me gustan ordenadas</h2>
+      <p>Listas ordenadas del 11 al 14</p>
+      <div>
+        <ol>
+          <li value="11">Chris</li>
+          <li>Michelle</li>
+          <li>Franco</li>
+          <li>López</li>
+        </ol>
+      </div>
+
+      <!--Ejemplo de Listas y Sublistas-->
+      <h2>Ejemplos de Listas y Sublistas</h2>
+      <p>Lista de Rutina de gym</p>
+      <div>
+        <ol><!--Lista principal-->
+          <li>Espalda</li>
+            <ol><!--Se crea una sublista ordenada-->
+              <li style="list-style-type: lower-alpha;">Remo</li>
+              <li style="list-style-type: lower-alpha;">Pull up</li>
+              <li style="list-style-type: lower-alpha;">fila T-Bar</li>
+            </ol>
+          <li>Tricep</li>
+            <ol><!--Se crea una sublista ordenada-->
+              <li style="list-style-type:upper-roman;">Patada de triceps</li>
+              <li style="list-style-type:upper-roman;">Fondos</li>
+              <li style="list-style-type: upper-roman;">Jalon con cuerda</li>
+            </ol>
+        </ol>
+      </div>
+
+      <!--Creación de TABLAS-->
+      <table style="width: 300px;">
+        <thead><!--Con esta etiqueta se le indicamos a los navegadores que es la cabecera de la TABLA--> 
+          <tr><!--Con TR se CREAN las FILAS de las tablas-->
+            <th>Precio</th><!--Con la etiqueta TH se crea la cabecera de la tabla-->
+            <th>Producto</th>
+          </tr>
+        </thead>
+
+        <!--NOTA: Mientras más th agregemos, más columas se agregaran-->
+        
+        <tbody> <!--Con esta etiqueta le indicamos a los navegadores que es el cuerpo de la TABLA-->
+          <tr><!--Se crea una segunda FILA-->
+            <td>$10</td>
+            <td>Mi colita</td>
+          </tr>
+
+          <tr><!--se crea una tercera FILA-->
+            <td>$15,5</td>
+            <td>Tu qolita</td>
+          </tr>
+        </tbody>
+
+        <tfoot><!--Con esta etiqueta le indicamos a los navegadores que es el pie de la TABLA-->
+          <td>Total: $25,5</td>
+          <td></td>
+
+        </tfoot>
+      </table>
+
+      <br>
+      
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Edad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>25</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>55</td>
+            </tr>
+          </tfoot>
+        </table>
+    
+    
+
+
+
+    </section>
+  </main>
+  <!--Esto es el PIE DE PAGINA DE sobremi.html-->
+  <footer>
+    <hr>
+    <p>Todos los derechos reservados Eduardo Allende Téllez Desarrollador WEB</Table></p>
+  </footer>
+</body>
+</html>
